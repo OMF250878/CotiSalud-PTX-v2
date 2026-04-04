@@ -1,0 +1,17 @@
+{
+  "name": "cotisalud-ptx-v2",
+  "version": "2.0.0",
+  "description": "Cotizador de salud Protexa v2 - diseno minimalista editorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Omar Marzuka",
+  "license": "MIT"
+}
