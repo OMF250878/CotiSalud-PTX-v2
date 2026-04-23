@@ -60,7 +60,7 @@ function createConyugeCard() {
     '<div class="g2">' +
       '<div class="fg"><label>Edad</label><input type="number" name="conyuge-edad" min="18" max="100" placeholder="Edad" required/></div>' +
       '<div class="fg"><label>Sexo</label><div class="radio-row">' +
-        '<label class="rpill selected" id="' + id1 + '"><input type="radio" name="conyuge-sexo" value="HOMBRE" required/>Hombre</label>' +
+        '<label class="rpill selected" id="' + id1 + '"><input type="radio" name="conyuge-sexo" value="HOMBRE" checked required/>Hombre</label>' +
         '<label class="rpill" id="' + id2 + '"><input type="radio" name="conyuge-sexo" value="MUJER" required/>Mujer</label>' +
       '</div></div>' +
     '</div>';
@@ -81,7 +81,7 @@ function createHijoCard(num) {
     '<div class="g2">' +
       '<div class="fg"><label>Edad</label><input type="number" name="hijo-edad-' + num + '" min="0" max="25" placeholder="Edad" required/></div>' +
       '<div class="fg"><label>Sexo</label><div class="radio-row">' +
-        '<label class="rpill selected" id="' + id1 + '"><input type="radio" name="hijo-sexo-' + num + '" value="HOMBRE" required/>Hombre</label>' +
+        '<label class="rpill selected" id="' + id1 + '"><input type="radio" name="hijo-sexo-' + num + '" value="HOMBRE" checked required/>Hombre</label>' +
         '<label class="rpill" id="' + id2 + '"><input type="radio" name="hijo-sexo-' + num + '" value="MUJER" required/>Mujer</label>' +
       '</div></div>' +
     '</div>';
